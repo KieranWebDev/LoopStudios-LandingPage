@@ -1,0 +1,30 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --white: rgb(255, 255, 255);
+  --black: rgb(0, 0, 0);
+  --dark-grey: rgb(140, 140, 140);
+  --very-dark-grey: rgb(105, 105, 105);
+}
+
+body {
+  font-size: 15px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Alata', sans-serif;
+}
