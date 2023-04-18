@@ -1,0 +1,14 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  width: 144px;
+  height: 24px;
+}
+nav button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
