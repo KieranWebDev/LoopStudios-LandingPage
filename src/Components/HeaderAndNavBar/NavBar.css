@@ -7,8 +7,28 @@ nav {
   width: 144px;
   height: 24px;
 }
-nav button {
+nav .hamburger {
   border: none;
   background-color: transparent;
   cursor: pointer;
 }
+nav ul {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  nav .hamburger {
+    display: none;
+  }
+
+  nav .menu {
+    display: flex;
+    list-style: none;
+    gap: 2em;
+  }
+  .menu a {
+    text-decoration: none;
+    color: var(--white);
+    line-height: 25px;
+  }
+} ;
