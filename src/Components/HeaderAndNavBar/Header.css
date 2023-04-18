@@ -15,6 +15,6 @@ header {
   header {
     background-image: url('../../assets/images/desktop/image-hero.jpg');
     max-height: 650px;
-    padding: 4em 0;
+    padding: 4em 1em;
   }
 }
