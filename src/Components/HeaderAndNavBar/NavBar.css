@@ -1,7 +1,24 @@
 nav {
+  /* display: flex; */
+  /* justify-content: space-between;
+  align-items: center; */
+  padding: 2.5em 1em;
+}
+
+.logo-and-hamburger {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+nav.mobile-menu {
+  background-color: black;
+  height: 100vh;
+  z-index: 100;
+  display: flex;
+  flex-direction: column;
+}
+nav .menu-open {
+  margin: auto;
 }
 .logo {
   width: 144px;
@@ -12,26 +29,33 @@ nav .hamburger {
   background-color: transparent;
   cursor: pointer;
 }
-nav .menu {
+nav .desktop-links {
   display: none;
 }
 
 @media (min-width: 768px) {
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2.5em 1em;
+  }
+
   nav .hamburger {
     display: none;
   }
 
-  nav .menu {
+  nav .desktop-links {
     display: flex;
     list-style: none;
     gap: 2em;
   }
-  .menu a {
+  .desktop-links a {
     text-decoration: none;
     color: var(--white);
     position: relative;
   }
-  .menu a:hover::after {
+  .desktop-links a:hover::after {
     content: '';
     /* display: block; */
     position: absolute;
@@ -43,5 +67,6 @@ nav .menu {
     height: 2px;
     background-color: var(--white);
     margin: 0 auto;
+    transition: all 3s ease-in-out;
   }
 }
