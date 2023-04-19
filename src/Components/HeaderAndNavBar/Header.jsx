@@ -7,7 +7,9 @@ export default function Header() {
     <header>
       <div className="header-container">
         <NavBar />
-        <h1>Header</h1>
+        <div className="main-heading">
+          <h1>Immersive experiences that deliver</h1>
+        </div>
       </div>
     </header>
   );
