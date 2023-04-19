@@ -1,7 +1,4 @@
 nav {
-  /* display: flex; */
-  /* justify-content: space-between;
-  align-items: center; */
   padding: 2.5em 1em;
 }
 
@@ -12,11 +9,21 @@ nav.mobile-menu {
   display: flex;
   flex-direction: column;
 }
-.logo-and-hamburger {
+nav .logo-and-hamburger {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+nav .logo {
+  width: 144px;
+  height: 24px;
+}
+nav .hamburger {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+/* styles for open mobile menu */
 nav .mobile-links {
   display: block;
   margin: auto 0;
@@ -33,18 +40,7 @@ nav .mobile-links a {
   font-weight: 300;
 }
 
-nav .menu-open {
-  margin: auto;
-}
-.logo {
-  width: 144px;
-  height: 24px;
-}
-nav .hamburger {
-  border: none;
-  background-color: transparent;
-  cursor: pointer;
-}
+/* hide desktop styles */
 nav .desktop-links {
   display: none;
 }
