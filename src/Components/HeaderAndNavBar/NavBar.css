@@ -46,7 +46,7 @@ nav .desktop-links {
   display: none;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 700px) {
   nav {
     display: flex;
     justify-content: space-between;
@@ -56,6 +56,10 @@ nav .desktop-links {
 
   nav .hamburger {
     display: none;
+  }
+  nav .logo {
+    width: 192px;
+    height: 32px;
   }
 
   nav .desktop-links {
@@ -80,6 +84,7 @@ nav .desktop-links {
     height: 2px;
     background-color: var(--white);
     margin: 0 auto;
+    margin-top: 10px;
     transition: all 3s ease-in-out;
   }
 }
