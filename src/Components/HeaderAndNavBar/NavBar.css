@@ -5,11 +5,6 @@ nav {
   padding: 2.5em 1em;
 }
 
-.logo-and-hamburger {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
 nav.mobile-menu {
   background-color: black;
   height: 100vh;
@@ -17,6 +12,27 @@ nav.mobile-menu {
   display: flex;
   flex-direction: column;
 }
+.logo-and-hamburger {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav .mobile-links {
+  display: block;
+  margin: auto 0;
+}
+nav .mobile-links li {
+  list-style: none;
+  margin: 1em 0;
+}
+nav .mobile-links a {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: var(--white);
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
 nav .menu-open {
   margin: auto;
 }
