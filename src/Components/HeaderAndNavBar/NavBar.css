@@ -54,7 +54,7 @@ nav .desktop-links {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 2.5em 1em;
+    padding: 0;
   }
 
   nav .hamburger {
