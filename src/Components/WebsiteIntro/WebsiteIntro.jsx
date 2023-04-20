@@ -9,7 +9,7 @@ export default function WebsiteIntro() {
         className="intro-pic"
         src={IntroPicDesktop}
         srcSet={`${IntroPicMobile} 651w, ${IntroPicDesktop}`}
-        sizes="(max-width: 700px) 651px, 100vw"
+        sizes="(max-width: 800px) 651px, 100vw"
         alt="person using a VR headset"
       />
       <div className="intro-text">

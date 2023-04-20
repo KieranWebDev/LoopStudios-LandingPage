@@ -2,14 +2,11 @@
   width: 100%;
   margin: 0 auto;
   max-width: 1110px;
-  /* border: 1px solid black; */
 }
 .intro-pic {
   display: block;
   width: 100%;
   margin-bottom: 3em;
-  /* max-width: 730px; */
-  /* max-height: 500px; */
 }
 .intro-text {
   margin-bottom: 6em;
@@ -46,7 +43,6 @@
     align-items: flex-start;
     justify-content: flex-end;
     background-color: var(--white);
-    /* border: 1px solid black; */
     margin: 0;
     padding: 0;
     padding-left: clamp(2em, 96px, 6em);
