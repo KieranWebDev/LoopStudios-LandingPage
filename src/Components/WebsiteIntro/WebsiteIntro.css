@@ -1,0 +1,23 @@
+.intro-section {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1110px;
+}
+.intro-pic {
+  display: block;
+  width: 100%;
+  margin-bottom: 3em;
+}
+.intro-section h2 {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 1em;
+  padding: 0 1em;
+}
+.intro-section p {
+  font-size: 0.9375rem;
+  text-align: center;
+  margin-bottom: 6em;
+  opacity: 0.5;
+  padding: 0 2em;
+}
