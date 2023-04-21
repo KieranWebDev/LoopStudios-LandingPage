@@ -29,6 +29,7 @@
     grid-template-columns: 2fr minmax(50px, 220px) 1fr;
     grid-template-rows: minmax(80px, 200px) 1fr;
     margin: 0 auto;
+    margin-bottom: 184px;
   }
   .intro-pic {
     grid-column: 1 / 3;
