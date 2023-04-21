@@ -56,7 +56,7 @@
     font-size: 2rem;
   }
 }
-@media (min-width: 1000px) {
+@media (min-width: 1050px) {
   .intro-text h2 {
     font-size: 3rem;
   }
