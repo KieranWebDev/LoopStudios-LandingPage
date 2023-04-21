@@ -28,6 +28,7 @@
   grid-column: 1/2;
   grid-row: 2/-1;
   font-size: 1.5rem;
+  line-height: 1em;
   margin: 0.5em;
   justify-self: start;
   align-self: start;
@@ -39,3 +40,25 @@
 /* .deep-earth {
   background-image: url('../../assets/images/mobile/image-deep-earth.jpg');
 } */
+
+@media (min-width: 450px) {
+  .our-creations-card {
+    max-height: 250px;
+  }
+  .our-creations-card h3 {
+    justify-self: start;
+    align-self: end;
+    font-size: 2rem;
+  }
+}
+
+@media (min-width: 700px) {
+  .our-creations-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+  }
+  .our-creations-card {
+    max-height: 450px;
+  }
+}
