@@ -6,11 +6,11 @@
 
 .our-creations-card {
   max-height: 120px;
-
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   margin-bottom: 1.5em;
+  text-decoration: none;
 }
 .our-creation-pic {
   display: block;

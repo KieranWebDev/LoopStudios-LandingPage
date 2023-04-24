@@ -20,6 +20,7 @@ export const creationSectionData = [
     mobileImg: DeepEarthMobile,
     desktopImg: DeepEarthDesktop,
     alt: 'picture of Earth',
+    link: 'https://www.pinterest.com/Aintez/cutest-dog-pics-ever/',
   },
   {
     title: 'Night arcade',
