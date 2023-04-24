@@ -61,4 +61,10 @@
   .our-creations-card {
     max-height: 450px;
   }
+  .our-creations-card h3 {
+    grid-column: 1/-1;
+    margin: 0;
+    margin-left: 1.2em;
+    margin-bottom: 1em;
+  }
 }

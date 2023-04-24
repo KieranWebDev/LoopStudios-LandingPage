@@ -13,6 +13,7 @@ import PocketBorealisDesktop from './assets/images/desktop/image-pocket-borealis
 import CuriosityMobile from './assets/images/mobile/image-curiosity.jpg';
 import CuriosityDesktop from './assets/images/desktop/image-curiosity.jpg';
 import FisheyeMobile from './assets/images/mobile/image-fisheye.jpg';
+import FisheyeDesktop from './assets/images/desktop/image-fisheye.jpg';
 
 export const creationSectionData = [
   {
@@ -27,40 +28,48 @@ export const creationSectionData = [
     mobileImg: NightArcadeMobile,
     desktopImg: NightArcadeDesktop,
     alt: 'picture of a city at night',
+    link: 'https://www.pinterest.com/Aintez/cutest-dog-pics-ever/',
   },
   {
     title: 'Soccer team VR',
     mobileImg: SoccerTeamMobile,
     desktopImg: SoccerTeamDesktop,
     alt: 'picture of a soccer team',
+    link: 'https://www.pinterest.com/Aintez/cutest-dog-pics-ever/',
   },
   {
     title: 'The grid',
     mobileImg: TheGridMobile,
     desktopImg: TheGridDesktop,
     alt: 'picture of a grid',
+    link: 'https://www.pinterest.com/Aintez/cutest-dog-pics-ever/',
   },
   {
     title: 'From up above VR',
     mobileImg: FromAboveMobile,
     desktopImg: FromAboveDesktop,
     alt: 'picture of a city from above',
+    link: 'https://www.pinterest.com/Aintez/cutest-dog-pics-ever/',
   },
   {
     title: 'Pocket borealis',
     mobileImg: PocketBorealisMobile,
     desktopImg: PocketBorealisDesktop,
     alt: 'picture of northern lights',
+    link: 'https://www.pinterest.com/Aintez/cutest-dog-pics-ever/',
   },
   {
     title: 'The curiosity',
     mobileImg: CuriosityMobile,
     desktopImg: CuriosityDesktop,
     alt: 'picture of a rover on Mars',
+    link: 'https://www.pinterest.com/Aintez/cutest-dog-pics-ever/',
   },
   {
     title: 'Make it fisheye',
     mobileImg: FisheyeMobile,
+    desktopImg: FisheyeDesktop,
     alt: 'picture of a fisheye lens',
+    link: 'https://www.pinterest.com/Aintez/cutest-dog-pics-ever/',
   },
 ];
