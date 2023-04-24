@@ -1,5 +1,6 @@
 import './OurCreations.css';
 import { creationSectionData } from '../../data.jsx';
+import CreationComponent from './CreationComponent';
 
 // import DeepEarthMobile from '../../assets/images/mobile/image-deep-earth.jpg';
 // import DeepEarthDesktop from '../../assets/images/desktop/image-deep-earth.jpg';
@@ -11,8 +12,17 @@ export default function OurCreations() {
     <section className="our-creations-section">
       <h2>Our Creations</h2>
       <div className="our-creations-container">
-        {/*  */}
-        <a
+        {creationSectionData.map((item) => (
+          <CreationComponent
+            title={item.title}
+            mobileImg={item.mobileImg}
+            desktopImg={item.desktopImg}
+            alt={item.alt}
+            link={item.link}
+          />
+        ))}
+
+        {/* <a
           href="https://www.pinterest.com/Aintez/cutest-dog-pics-ever/"
           target="_blank"
           className="our-creations-card"
@@ -26,7 +36,7 @@ export default function OurCreations() {
             alt="person using a VR headset"
           />
           <h3>Deep earth</h3>
-        </a>
+        </a> */}
         {/* <div className="our-creations-card">
           <img
             className="our-creation-pic"
